@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="What is the size of this issue?">62104597833f4610aab751c6feaad3d3</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 21:25:52</sys_created_on>
+        <sys_id>f1a0895b833f4610aab751c6feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medium</sys_name>
+        <sys_package display_value="Safety" source="x_295105_safety">fb42144b83370610aab751c6feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">fb42144b83370610aab751c6feaad301</sys_scope>
+        <sys_update_name>question_choice_f1a0895b833f4610aab751c6feaad30d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 21:25:52</sys_updated_on>
+        <text>Medium</text>
+        <value>medium</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f1a0895b833f4610aab751c6feaad30d"/>
+</record_update>

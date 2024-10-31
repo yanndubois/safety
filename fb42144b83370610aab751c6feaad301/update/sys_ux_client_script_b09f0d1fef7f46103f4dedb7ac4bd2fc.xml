@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Search Page">b09f4d1fca7f46107c0bc41035405c05</macroponent>
+        <name>handle_facet_click</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({api, event, imports, helpers}) {
+		const props = api.context.props;
+    helpers.navigate.to('search', {
+			searchTerm: props.searchTerm,
+			searchContextConfigId: props.searchContextConfigId
+    },
+		{
+			searchFilters: props.searchFilters,
+			facetFilters: event.payload.selectedFilters,
+			disableSpellCheck: props.disableSpellCheck
+		});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 22:31:08</sys_created_on>
+        <sys_id>b09f0d1fef7f46103f4dedb7ac4bd2fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>handle_facet_click</sys_name>
+        <sys_package display_value="Safety" source="x_295105_safety">fb42144b83370610aab751c6feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">fb42144b83370610aab751c6feaad301</sys_scope>
+        <sys_update_name>sys_ux_client_script_b09f0d1fef7f46103f4dedb7ac4bd2fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 22:31:08</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate_bundle">
+    <sys_ux_composite_data_template_predicate_bundle action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>My requests - reqested item bundle</name>
+        <sys_class_name>sys_ux_composite_data_template_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 22:31:08</sys_created_on>
+        <sys_id>7c9f0d1fc07f4610756694bcb149d8f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My requests - reqested item bundle</sys_name>
+        <sys_package display_value="Safety" source="x_295105_safety">fb42144b83370610aab751c6feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">fb42144b83370610aab751c6feaad301</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_bundle_7c9f0d1fc07f4610756694bcb149d8f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 22:31:08</sys_updated_on>
+    </sys_ux_composite_data_template_predicate_bundle>
+</record_update>

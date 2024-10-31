@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 23:30:41</sys_created_on>
+        <sys_id>64a3d0cb83370610aab751c6feaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_295105_safety_issues.x_295105_safety.user</sys_name>
+        <sys_package display_value="Safety" source="x_295105_safety">fb42144b83370610aab751c6feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">fb42144b83370610aab751c6feaad301</sys_scope>
+        <sys_security_acl display_value="x_295105_safety_issues">d4a3d0cb83370610aab751c6feaad341</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_64a3d0cb83370610aab751c6feaad376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 23:30:41</sys_updated_on>
+        <sys_user_role display_value="x_295105_safety.user" name="x_295105_safety.user">4452144b83370610aab751c6feaad337</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">fb42144b83370610aab751c6feaad301</application>
+        <file_path/>
+        <instance_id>48dc03351b35f114fe1b43f4bd4bcb56</instance_id>
+        <instance_name>dev182965</instance_name>
+        <name>sys_security_acl_role_64a3d0cb83370610aab751c6feaad376</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-07 23:30:41</sys_created_on><sys_id>64a3d0cb83370610aab751c6feaad376</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_295105_safety_issues.x_295105_safety.user</sys_name><sys_package display_value="Safety" source="x_295105_safety">fb42144b83370610aab751c6feaad301</sys_package><sys_policy/><sys_scope display_value="Safety">fb42144b83370610aab751c6feaad301</sys_scope><sys_security_acl display_value="x_295105_safety_issues">d4a3d0cb83370610aab751c6feaad341</sys_security_acl><sys_update_name>sys_security_acl_role_64a3d0cb83370610aab751c6feaad376</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-07 23:30:41</sys_updated_on><sys_user_role display_value="x_295105_safety.user" name="x_295105_safety.user">4452144b83370610aab751c6feaad337</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>569190250</payload_hash>
+        <record_name>x_295105_safety_issues.x_295105_safety.user</record_name>
+        <reverted_from/>
+        <source>7742144b83370610aab751c6feaad32b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 23:30:41</sys_created_on>
+        <sys_id>24a3d0cb83370610aab751c6feaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1912f2e2e880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 23:30:41</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>28a3d0cb073706100684792ef9737478</update_guid>
+        <update_guid_history>28a3d0cb073706100684792ef9737478:569190250</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_295105_safety_issues.x_295105_safety.user">23ca3853833f4610aab751c6feaad359</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 21:00:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1a0fa559578943e08fdbcdbef97bda84</sys_id>
+        <sys_metadata>64a3d0cb83370610aab751c6feaad376</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_295105_safety_issues.x_295105_safety.user</sys_name>
+        <sys_package display_value="Safety" source="x_295105_safety">fb42144b83370610aab751c6feaad301</sys_package>
+        <sys_parent display_value="">d4a3d0cb83370610aab751c6feaad341</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Safety">fb42144b83370610aab751c6feaad301</sys_scope>
+        <sys_scope_delete display_value="">444e68fc0b844a4795a0306d3fcc15f9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_64a3d0cb83370610aab751c6feaad376</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_64a3d0cb83370610aab751c6feaad376">24a3d0cb83370610aab751c6feaad379</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 21:00:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

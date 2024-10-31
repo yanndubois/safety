@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Safety 1723150863524</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_295105_safety_1723150863524</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 21:01:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c3fa7c53833f4610aab751c6feaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety 1723150863524</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Safety" source="x_295105_safety">fb42144b83370610aab751c6feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">fb42144b83370610aab751c6feaad301</sys_scope>
+        <sys_update_name>sys_app_module_c3fa7c53833f4610aab751c6feaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 21:01:06</sys_updated_on>
+        <timeline_page/>
+        <title>Safety 1723150863524</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">fb42144b83370610aab751c6feaad301</application>
+        <file_path/>
+        <instance_id>48dc03351b35f114fe1b43f4bd4bcb56</instance_id>
+        <instance_name>dev182965</instance_name>
+        <name>sys_app_module_c3fa7c53833f4610aab751c6feaad335</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Safety 1723150863524</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_295105_safety_1723150863524</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-08 21:01:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c3fa7c53833f4610aab751c6feaad335</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Safety 1723150863524</sys_name><sys_overrides/><sys_package display_value="Safety" source="x_295105_safety">fb42144b83370610aab751c6feaad301</sys_package><sys_policy/><sys_scope display_value="Safety">fb42144b83370610aab751c6feaad301</sys_scope><sys_update_name>sys_app_module_c3fa7c53833f4610aab751c6feaad335</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-08 21:01:06</sys_updated_on><timeline_page/><title>Safety 1723150863524</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-474470787</payload_hash>
+        <record_name>Safety 1723150863524</record_name>
+        <reverted_from/>
+        <source>7742144b83370610aab751c6feaad32b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 21:01:06</sys_created_on>
+        <sys_id>83fa7c53833f4610aab751c6feaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19133cb97f40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 21:01:06</sys_updated_on>
+        <type>Module</type>
+        <update_guid>47fa7c53573f4610cd6e863679582051</update_guid>
+        <update_guid_history>47fa7c53573f4610cd6e863679582051:-474470787</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Safety 1723150863524">f4db70d3833f4610aab751c6feaad3b1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 21:04:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2f0dce4aedab40cd99cd19b61008e8f1</sys_id>
+        <sys_metadata>c3fa7c53833f4610aab751c6feaad335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety 1723150863524</sys_name>
+        <sys_package display_value="Safety" source="x_295105_safety">fb42144b83370610aab751c6feaad301</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safety">fb42144b83370610aab751c6feaad301</sys_scope>
+        <sys_scope_delete display_value="">444e68fc0b844a4795a0306d3fcc15f9</sys_scope_delete>
+        <sys_update_name>sys_app_module_c3fa7c53833f4610aab751c6feaad335</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c3fa7c53833f4610aab751c6feaad335">83fa7c53833f4610aab751c6feaad352</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 21:04:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">fc9f0d1fdb7f4610aac732c99d5d04f8</dataset>
+        <datasource display_value="My Requests - Requested Item Datasource">3c9f0d1fcb7f4610a295bd55b08b2af8</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 22:31:08</sys_created_on>
+        <sys_id>3c9f0d1f767f4610966f6da9b8daddf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_295105_safety">fb42144b83370610aab751c6feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">fb42144b83370610aab751c6feaad301</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_3c9f0d1f767f4610966f6da9b8daddf5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 22:31:08</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

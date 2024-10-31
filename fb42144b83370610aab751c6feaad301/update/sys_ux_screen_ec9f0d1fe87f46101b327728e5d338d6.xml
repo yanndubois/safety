@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Safety Issues Portal App Config">609f0d1f657f461002e7d879f8f236d5</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+          {
+            "eventMappingId": "clriiujjiitffaabbddddddbhhqbgglccujjzx",
+            "isConfiguration": false,
+            "offRowStorageId": null,
+            "sourceEventApiName": "x_295105_safety.NAV_ITEM_SELECTED_RELAY_b09f4d1fca7f46107c0bc41035405c05",
+            "sourceEventCorrelationId": null,
+            "sourceEventDefinition": {
+                "apiName": "x_295105_safety.NAV_ITEM_SELECTED_RELAY_b09f4d1fca7f46107c0bc41035405c05",
+                "id": null,
+                "type": "UXEVENT"
+            },
+            "sourceEventSysId": null,
+            "targets": [
+                {
+                    "broker": null,
+                    "clientScript": null,
+                    "clientTransformScript": null,
+                    "clientTransformScriptUxValue": null,
+                    "conditional": null,
+                    "declarativeAction": null,
+                    "event": {
+                        "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
+                        "payload": {
+                            "container": {
+                                "external": {
+                                    "binding": {
+                                        "address": [
+                                            "external"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "fields": {
+                                    "binding": {
+                                        "address": [
+                                            "fields"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "multiInstField": {
+                                    "binding": {
+                                        "address": [
+                                            "multiInstField"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "navigationOptions": {
+                                    "binding": {
+                                        "address": [
+                                            "navigationOptions"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "params": {
+                                    "binding": {
+                                        "address": [
+                                            "params"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "passiveNavigation": {
+                                    "binding": {
+                                        "address": [
+                                            "passiveNavigation"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "redirect": {
+                                    "binding": {
+                                        "address": [
+                                            "redirect"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "route": {
+                                    "binding": {
+                                        "address": [
+                                            "route"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "targetRoute": {
+                                    "binding": {
+                                        "address": [
+                                            "targetRoute"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "title": {
+                                    "binding": {
+                                        "address": [
+                                            "title"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                }
+                            },
+                            "type": "MAP_CONTAINER"
+                        },
+                        "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
+                    },
+                    "operation": null,
+                    "targetId": "clriiujjiitffaabbddccddbhhqzeoddeenzp",
+                    "type": "EVENT"
+                }
+            ]
+        }
+          ]</event_mappings>
+        <macroponent display_value="Search Page">b09f4d1fca7f46107c0bc41035405c05</macroponent>
+        <macroponent_config>{
+  "searchContextConfigId" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "searchTerm" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "none"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Search Page Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Search Page">f89f4d1f3b7f4610515cce0a2c4fd708</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 22:31:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec9f0d1fe87f46101b327728e5d338d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search Page Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Safety" source="x_295105_safety">fb42144b83370610aab751c6feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">fb42144b83370610aab751c6feaad301</sys_scope>
+        <sys_update_name>sys_ux_screen_ec9f0d1fe87f46101b327728e5d338d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 22:31:06</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=ec9f0d1fe87f46101b327728e5d338d6"/>
+</record_update>

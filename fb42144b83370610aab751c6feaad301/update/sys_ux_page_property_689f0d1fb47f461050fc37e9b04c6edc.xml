@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Safety Issues Portal">ac9f0d1f177f4610010aad2ea2dfa3d4</page>
+        <required_translations>[{"message":"Logout","comment":""},{"message":"Configure","comment":""},{"message":"UserMenu","comment":""},{"message":"Settings","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 22:31:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>689f0d1fb47f461050fc37e9b04c6edc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Safety" source="x_295105_safety">fb42144b83370610aab751c6feaad301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">fb42144b83370610aab751c6feaad301</sys_scope>
+        <sys_update_name>sys_ux_page_property_689f0d1fb47f461050fc37e9b04c6edc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 22:31:08</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_295105_safety.ac9f0d1f177f4610010aad2ea2dfa3d4.root.chrome_header</unique_name>
+        <value>{
+    "privatePage":{
+      "searchEnabled": true,
+       "userPrefsEnabled":true,
+       "currentScreenLinkConfiguration": {
+            "roles": ["admin"],
+            "position": 250
+        },
+       "globalTools":{
+          "collapsingMenuId":0,
+          "primaryItems":[
+             {
+                "label":"UserMenu",
+                "icon":"user",
+                "type":"menu",
+                "primaryDisplay":"icon",
+                "value":{
+                   "children":[
+                      {
+                         "label": {
+                          "translatable": true,
+                          "message":"Settings"
+                        },
+                         "position":100,
+                         "type":"navigation",
+                         "value":{
+                            "type":"route",
+                            "value":{
+                               "route":"settings",
+                               "fields":{
+                                  
+                               }
+                            }
+                         }
+                      },
+                      {                   
+                        "condition": {
+                          "roles": ["admin", "ui_builder_admin"]
+                        },
+                         "label":{
+                            "translatable": true,
+                            "message":"Configure"
+                          },
+                         "type":"navigation",
+                         "position":200,
+                         "primaryDisplay":"none",
+                         "value":{
+                            "type":"external",
+                            "opensWindow":"true",
+                            "value":{
+                               "href":"/nav_to.do?uri=/sys_ux_app_config.do?sys_id=609f0d1f657f461002e7d879f8f236d5"
+                            }
+                         }
+                      },
+                      {
+                         "label": {
+                            "translatable": true,
+                            "message":"Logout"
+                          },
+                         "position":500,
+                         "type":"navigation",
+                                "value":{
+                                  "type": "AUTH_ROUTE_BINDING",
+                                        "binding": {
+                                            "address": ["logout"],
+                                            "params": {"reload": true},
+                                            "default": "/logout.do"
+                                }
+                        }
+                      }
+                   ]
+                }
+             }
+          ],
+          "secondaryItems":[]
+       }
+    },
+    "publicPage":{
+      "menuEnabled": true,
+      "logoRoute": {
+        "type": "route",
+        "value": {
+          "route": "landing",
+          "fields":{}
+        }
+      }
+    }
+ }</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=689f0d1fb47f461050fc37e9b04c6edc"/>
+</record_update>
